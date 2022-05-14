@@ -1,7 +1,7 @@
 <?php
-include('../config/config.php');
-include('../html/post.php');
-include('../index.php');
+include('config/config.php');
+include('html/post.php');
+include('index.php');
 
 $pseudo = htmlspecialchars($_POST['pseudo']);
 $message = nl2br(htmlspecialchars($_POST['message']));
