@@ -3,7 +3,6 @@
     <head>
         <title>Messagerie v0.1</title>
         <meta charset='utf-8'>
-        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
