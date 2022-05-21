@@ -18,4 +18,4 @@ elseif(!empty($pseudo) AND !empty($msg))
     $insertMessage = $bdd->prepare('INSERT INTO messages (pseudonyme, msg) VALUES(:pseudo, :msg)');
     $insertMessage->execute(array(':pseudo'=>$pseudo, ':msg'=>$msg));
 }
-?>
+?> 
